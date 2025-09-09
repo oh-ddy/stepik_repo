@@ -8,3 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: psf/black@stable
+
+-name: Super-Linter
+
+uses: super-linter/super-linter@v8.1.0
